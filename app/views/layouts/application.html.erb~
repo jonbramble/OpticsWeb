@@ -10,6 +10,7 @@
 
 <div id="mainpage">
 <%= yield %>
+
 </div>
 
 </body>
