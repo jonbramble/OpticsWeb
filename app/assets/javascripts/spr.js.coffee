@@ -4,6 +4,7 @@
 
 jQuery ->
  d1 = []
+ a = <%= xdata %>
  num = ([x,Math.sin(x)] for x in [0..14] by 0.1)
  jQuery.plot(jQuery("#placeholder"), [ num ]);
  

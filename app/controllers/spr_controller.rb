@@ -2,8 +2,8 @@ class SprController < ApplicationController
   
 
   def index
-	@x = [1,2,3,4,5]
-	@y = [5,6,7,8,9]
+	xdata = [1,2,3,4,5].to_json
+	ydata = [5,6,7,8,9].to_json
   end
 
   def new
