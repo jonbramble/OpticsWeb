@@ -9,8 +9,14 @@
 <body>
 
 <div id="mainpage">
-<%= yield %>
+<nav>
 
+<ul>
+<li><%= link_to "SPR", :spr %> </li>
+</ul>
+
+</nav>
+<%= yield %>
 </div>
 
 </body>

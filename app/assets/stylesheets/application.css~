@@ -24,7 +24,34 @@ body {
 
 }
 
+nav {
+	background: #eee;
+	height: 30px;
+	padding-left: 15px;
+	/*border-bottom-style: solid;
+	border-bottom-color: #4682B4;
+	border-bottom-width: 5px;*/
+		
+}
+
+nav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+nav ul li {
+display:inline;
+}
+
+
+nav ul li a {
+	text-decoration:none;
+	line-height: 30px;
+}
+
 #header {
+	margin-top: 10px;
 	height: 80px;
 	background: #eee;
 	line-height: 80px;
@@ -36,9 +63,7 @@ body {
 }
 
 #content {
-	
-	
-
+	padding: 50px;
 
 }
 
